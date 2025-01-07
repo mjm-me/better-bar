@@ -1,0 +1,19 @@
+---
+//FrontMater
+//Aquí TS
+
+import Layout from '../layouts/layout2.astro'
+
+import Footer from "../components/footer.astro"
+const n = 23;
+const user = 'Pepe'
+
+---
+
+
+
+<Layout>
+    <div class="container">
+        <Footer owner={user} num={n}/>
+    </div>
+</Layout>

@@ -1,0 +1,22 @@
+---
+
+type Props = {
+    owner: string,
+    num: number,
+}
+
+const {owner} = Astro.props
+const {num} = Astro.props
+
+---
+
+
+<footer>
+    <p>Soy el footer de {owner} y tengo {num} años</p>
+</footer>
+
+<style>
+    p {
+        color:blue
+    }
+</style>
