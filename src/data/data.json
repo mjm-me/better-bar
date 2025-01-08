@@ -1,6 +1,6 @@
 [
   {
-    "isAlive": false,
+    "isAlive": true,
     "message": "You're all to die!",
     "name": "Joffrey",
     "family": "Baratheon",
